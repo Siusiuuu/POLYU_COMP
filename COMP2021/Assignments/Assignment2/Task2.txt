@@ -1,0 +1,17 @@
+the first test method: compiles successfully
+output: 2.5.3.8.9.
+
+the second test method: compiles successfully
+output: 1.11.14.5.12.7.9.15.18.
+
+the thrid test method: can not compile successfully
+the changed method:
+
+@Test
+public void test3() throws EA{
+    A a= new B(1);
+    a.m1();
+}
+
+
+
